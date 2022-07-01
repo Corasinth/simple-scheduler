@@ -27,16 +27,9 @@ textarea{
 
 /*Main section*/
 .container {
-  display: flex;
-  flex-direction: column;
 }
 
 /*Time blocks*/
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -45,15 +38,16 @@ textarea{
   font-size: larger;
   padding-top: .7em;
   padding-bottom: .7em;
-  padding-right:.5em;
-  padding-left: .5em;
+  text-align: center;
 }
+
 
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
+
 
 .form-control {
   border: solid rgb(112, 108, 108);
