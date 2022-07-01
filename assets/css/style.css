@@ -74,10 +74,11 @@ textarea{
   background-color: #60d6f1;
 }
 
-.saveBtn:focus {
+.saveBtn:not(:active) {
   animation-name: buttonAnimation;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
+
 
 @keyframes buttonAnimation {
   0% {background-color: #02ff38;}
