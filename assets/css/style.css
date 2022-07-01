@@ -8,7 +8,7 @@ body {
 /*Header*/
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(198, 198, 198);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
