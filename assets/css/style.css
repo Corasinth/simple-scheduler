@@ -70,9 +70,20 @@ textarea{
 }
 
 .saveBtn:hover {
-  transition: all .3s ease-in-out;
+  transition: all .1s ease-in-out;
   background-color: #60d6f1;
 }
+
+.saveBtn:focus {
+  animation-name: buttonAnimation;
+  animation-duration: 3s;
+}
+
+@keyframes buttonAnimation {
+  0% {background-color: #02ff38;}
+  85% {background-color: #06AED5;}
+}
+
 
 /*Time dependant styling*/
 .past {
