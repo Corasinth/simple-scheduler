@@ -1,18 +1,11 @@
+/*General*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
+/*Header*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -28,6 +21,16 @@ textarea{
 /*Main section*/
 
 /*Time blocks*/
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;
