@@ -34,18 +34,18 @@ textarea{
   border-top: 1px dashed #000000;
   border-bottom: 1px dashed #000000;
   font-size: larger;
-  padding-top: .7em;
-  padding-bottom: .7em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   text-align: center;
 }
-
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
-
 
 .form-control {
   border: solid rgb(112, 108, 108);
@@ -62,7 +62,7 @@ textarea{
   background-repeat: no-repeat;
   background-size: 2em 2em;
   background-position: .5em;
-  height: 3em;
+  height: 5em;
   width: 3.5em;
 }
 
@@ -86,4 +86,3 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
-
