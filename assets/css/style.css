@@ -14,7 +14,7 @@ body {
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
@@ -22,7 +22,7 @@ body {
 
 /*Time blocks*/
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -80,12 +80,30 @@ textarea{
   color: white;
 }
 
+.past:focus {
+  background-color: #d3d3d3;
+  border: black solid;
+  box-shadow: none;
+}
+
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+.present:focus {
+  background-color: #ff6961;
+  border: black solid;
+  box-shadow: none;
+}
+
 .future {
   background-color: #77dd77;
   color: white;
+}
+
+.future:focus {
+  background-color: #77dd77;
+  border: black solid;
+  box-shadow: none;
 }
