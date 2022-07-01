@@ -25,14 +25,28 @@ textarea{
   white-space: pre-wrap;
 }
 
+/*Main section*/
 .container {
   display: flex;
   flex-direction: column;
 }
 
+/*Time blocks*/
 .time-block{
   text-align: center;
   border-radius: 15px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  font-size: larger;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  padding-right:.5em;
+  padding-left: .5em;
 }
 
 .row {
@@ -41,12 +55,31 @@ textarea{
   border-top: 1px solid white;;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+.form-control {
+  border: solid rgb(112, 108, 108);
 }
 
+/*Save buttons*/
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  background-image: url("../images/floppy-disk-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  background-position: .5em;
+  height: 3em;
+  width: 3.5em;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/*Time dependant styling*/
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -60,18 +93,5 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
 }
 
